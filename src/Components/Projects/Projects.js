@@ -28,7 +28,7 @@ function Projects() {
           </span>
         <span className="workContainer">
           <img src={Project2d} alt="Project2d" className="workImg" />
-          <h3 className="projectTitle">Project One</h3>
+          <h3 className="projectTitle">Project Two</h3>
           
           <button className= "projectBtn"
           onClick={()=>{window.open("https://mp2-d13s.vercel.app/")}}
@@ -36,7 +36,7 @@ function Projects() {
           </span>
         <span className="workContainer">
           <img src={Project3e} alt="Project3e" className="workImg" />
-          <h3 className="projectTitle">Project One</h3>
+          <h3 className="projectTitle">Project Three</h3>
           
           <button className= "projectBtn"
            onClick={()=>{window.open("https://capstone-front-end-gz1y-7vp7t1ji9-rimendoza12.vercel.app/")}}>
