@@ -1,0 +1,33 @@
+ .footerPage{
+    height:60px;
+    width:100vw;
+   background:rgb(40,40,40);
+   display:flex;
+   justify-content:center;
+   align-items: center;
+}
+/* .link{
+    height:50px;
+    width:50px;
+} */
+.contactInfos{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:0 5px;
+ }
+
+
+.contactIcon{
+    display:flex;
+    margin:10px;
+}
+@media screen and (max-width:720px){
+    .contactInfos{
+        flex-direction:column;
+        margin:auto;
+    }
+    .footerPage{
+        height:130px;
+    }
+}
